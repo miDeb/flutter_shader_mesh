@@ -32,7 +32,7 @@ void main() {
         float color_fraction = 1 / fraction_of_closest_distance;
 
         // apply a curve to reduce the impact of far-away colors
-        color_fraction = pow(color_fraction, 3);
+        color_fraction = pow(color_fraction, 2);
 
         sum += color_fraction;
         color += u_colors[i] * color_fraction;
