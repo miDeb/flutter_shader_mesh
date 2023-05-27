@@ -15,8 +15,8 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       home: Scaffold(
         body: SizedBox(
-          height: 500,
-          width: 500,
+          height: double.infinity,
+          width: double.infinity,
           child: Mesh(
             points: [
               (Offset(0, 0), Colors.red),
