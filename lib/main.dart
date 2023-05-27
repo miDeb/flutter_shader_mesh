@@ -19,10 +19,10 @@ class MainApp extends StatelessWidget {
           width: 500,
           child: Mesh(
             points: [
-              (Offset(0.25, 0.25), Colors.red),
-              (Offset(0.25, 0.75), Colors.green),
-              (Offset(0.75, 0.25), Colors.blue),
-              (Offset(0.75, 0.75), Colors.yellow),
+              (Offset(0, 0), Colors.red),
+              (Offset(0, 1), Colors.green),
+              (Offset(1, 0), Colors.blue),
+              (Offset(1, 1), Colors.yellow),
             ],
           ),
         ),
